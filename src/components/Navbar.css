@@ -1,0 +1,93 @@
+.nav
+{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+.navbar
+{
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   max-width: 1100px;
+   
+}
+
+.logo
+{
+    width:20%;
+
+letter-spacing: -.5px;
+    min-height: 100%;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    
+}
+.links
+{
+    width:80%;
+    height: 100%;
+    display: flex;
+    gap: 35px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li
+{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -.5px;
+}
+.btn-nav
+{
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+width: 130px;
+height: 100%;
+color: white;
+font-weight: 600;
+letter-spacing: -.5px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+@media only screen and (max-width: 1100px) {
+.navbar
+{
+    width: 95%;
+}
+
+}
+@media only screen and (max-width: 778px) {
+li
+{
+    display: none;
+}
+.links
+{
+    width: 50%;
+}
+.logo
+{
+width: 50%;
+font-size: 16px;
+}
+.btn-nav
+{
+    width: 140px;
+    font-size: 15px;
+}
+}
