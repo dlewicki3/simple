@@ -51,6 +51,7 @@ width: 100%; border-radius: 20px;
 .k1
 {
     min-height: 1150px;
+  
 }
 .o1
 {
@@ -72,10 +73,10 @@ width: 100%; border-radius: 20px;
     }
     .o1
     {
-        height: 1000px;
+        height: 900px;
         }    .k1
 {
-    min-height: 800px;
+    min-height: 680px;
 }
 }
 @media only screen and (max-width: 550px) {
