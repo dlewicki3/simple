@@ -1,7 +1,7 @@
 .o1
 {
     width: 100%;
-    min-height: 1200px;
+    min-height: 1400px;
     height: 1200px;
     display: flex;
    padding-top: 150px;
@@ -59,8 +59,8 @@ border-radius: 20px;
 }
 .o1
 {
-    min-height: 1150px;
-    height: 1150px;
+    min-height: 1250px;
+    height: 1250px;
 }
 .bottom-sticky
 {
