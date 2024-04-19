@@ -1,18 +1,18 @@
 .o1
 {
     width: 100%;
-    height: 1350px;
+    min-height: 1200px;
+    height: 1200px;
     display: flex;
    padding-top: 150px;
     justify-content: center;
     display: flex;
-
 }
 .k1
 {
     width: 100%;
-    max-width: 1100px;
- min-height: 1000px;
+ min-height: 1200px;
+ height: 1200px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -29,65 +29,64 @@ padding-bottom: 10px;
   position: sticky;
   top: 150px;
   z-index: 1;
+  max-width: 1100px;
 }
 .bottom-sticky
 {
-height: 800px;
+min-height: 500px;
 width: 100%;
+max-width: 1400px;
 z-index: 20;
 margin-top: 100px;
 overflow: hidden;
 border-radius: 20px;
 }
-.vid
+.foto1
 {
-scale: 1.6;
-width: 100%; 
-border-radius: 20px;
+    width: 100%;
+    height: 100%;
 }
 @media only screen and (max-width: 1100px) {
 .top
 {
-    width: 95%;
+    width: 90%;
 }
 .k1
 {
-    min-height: 1050px;
+    min-height: 1000px;
+    height: 1000px;
   
 }
 .o1
 {
-    height: 1250px;
+    min-height: 1150px;
+    height: 1150px;
 }
-.vid
+.bottom-sticky
 {
-    scale: 2.55;
-}
-}
-@media only screen and (max-width: 780px) {
-    .vid
-    {
-        scale: 2.7;
-    }
-    .bottom-sticky
-    {
-    height: 600px;    
-    }
-    .o1
-    {
-        height: 900px;
-        }    .k1
-{
-    min-height: 680px;
+    min-height: 700px;
+    height: 700px;
 }
 }
 @media only screen and (max-width: 550px) {
-.vid
+.o1
 {
-    scale: 4.6;
+min-height: 950px;
+height: 950px;
+
+}
+.k1
+{
+    min-height: 750px;
+    height: 750px;
 }
 .top
 {
-    font-size: 40px;
+    font-size: 45px;
+}
+.bottom-sticky
+{
+    min-height: 550px;
+    height: 550px;
 }
 }

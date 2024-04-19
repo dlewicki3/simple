@@ -1,6 +1,8 @@
 import React from 'react'
 import "./O1.css";
-import Video from "../components/Video.mp4"
+// import Video from "../components/Video.mp4"
+import Foto3 from '../components/Foto3.png';
+
 
 const O1 = () => {
   return (
@@ -10,7 +12,7 @@ const O1 = () => {
      Design capital<br></br> from obscurity<br></br> to scale.
         </div>
         <div className="bottom-sticky" >
-        <video className="vid" src={Video} autoPlay loop muted></video>
+        <img className="foto1" src={Foto3} autoPlay loop muted></img>
 
         </div>
      </div>
