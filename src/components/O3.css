@@ -151,4 +151,8 @@ width: 100%;
         min-height: 1800px;
         flex-direction: column;
     }
+    .kwa3
+    {
+        height: 32%;
+    }
 }
