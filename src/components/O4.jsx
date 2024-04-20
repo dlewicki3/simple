@@ -13,10 +13,12 @@ const O4 = () => {
             <div className="kwa44">03</div>
         </div>
         <div className="na-pro">
-<div className="pro4">Cortex raises $35M Series B for its internal developer portal</div>
-<div className="pro4">Captions raises $25 Million to bring AI to creators</div>
+<div className="pro4"><p className='txt4'>Cortex raises $35M Series B for its internal developer portal</p></div>
+<div className="pro4"><p className='txt4'>Captions raises $25 Million to bring AI to creators </p></div>
 <div className="pro4">
+  <p className='txt4'>
 Robust Intelligence to be named most innovative company in data science of 2023
+</p>
 </div>
 </div>
     </div>
