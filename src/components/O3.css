@@ -1,12 +1,14 @@
 .o3
 {
-    min-height: 760px;
-    height: 760px;
+    min-height: 860px;
+    height: 860px;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
+
 
 }
 .na-txt3
@@ -21,8 +23,8 @@ color: white;
 {
 width: 100%;
 max-width: 1100px;
-height: 650px;
-min-height: 650px;
+height: 700px;
+min-height: 700px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -33,7 +35,11 @@ align-items: center;
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    border-radius: 20px;
+
 }
+
 .foto3
 {
     width: 100%;
@@ -45,6 +51,12 @@ align-items: center;
     height: 100%;
     cursor: pointer;
     border-radius: 20px;
+    transition: transform .6s, filter .6s ease-in-out;
+    overflow: hidden;
+}
+.fotka3:hover
+{
+    transform: scale(1.03);
 }
 .small-txt3
 {
@@ -59,7 +71,7 @@ align-items: center;
 }
 .na-btn3
 {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: flex;
 margin-top: 10px;
@@ -75,14 +87,15 @@ justify-content: space-between;
     height: 35px;
     color: grey;
     font-weight: 600;
+    cursor: pointer;
     
 }
 @media only screen and (max-width: 1100px) {
 .k3
 {
     width: 90%;
-    height: 550px;
-min-height: 550px;
+    height: 600px;
+min-height: 600px;
 }
 .na-txt3
 {
@@ -103,13 +116,13 @@ width: 100%;
 @media only screen and (max-width: 950px) {
 .o3
 {
-    min-height:2900px;
-    height: 2900px;
+    min-height:2800px;
+    height: 2800px;
 }
 .k3
 {
-    height: 2700px;
-    min-height: 2700px;
+    height: 2600px;
+    min-height: 2600px;
     flex-direction: column;
 }
 .kwa3
