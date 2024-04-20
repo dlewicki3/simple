@@ -126,7 +126,6 @@ width: 100%;
 .na-btn3
 {
     width: 70%;
-    margin-top: 1dvh;
 }
 .o3
 {
@@ -139,8 +138,6 @@ width: 100%;
     min-height: 2100px;
     flex-direction: column;
 }
-
-
 }
 @media only screen and (max-width: 450px) {
     .o3
@@ -150,11 +147,8 @@ width: 100%;
     }
     .k3
     {
-        height: 1850px;
-        min-height: 1850px;
+        height: 1800px;
+        min-height: 1800px;
         flex-direction: column;
     }
-
-
-
 }
