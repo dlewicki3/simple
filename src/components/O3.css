@@ -64,6 +64,7 @@ align-items: center;
     border-radius: 20px;
     transition: transform .6s, filter .6s ease-in-out;
     overflow: hidden;
+
 }
 .fotka3:hover
 {
@@ -192,5 +193,10 @@ width: 100%;
     .kwa333-display
     {
         height: 32%;
+    }
+    .foto3
+    {
+        height:67% ;
+    
     }
 }

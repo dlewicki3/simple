@@ -27,8 +27,6 @@ const O3 = () => {
     );
   }, []);
 
-
-  
   return (
     <div className="o3">
       <div className="na-txt3">Zypsy companies</div>
@@ -54,7 +52,7 @@ const O3 = () => {
             <br />
             <p className='small-txt3'>AI</p>
             <br />
-            <p className='middle-txt3'>Lorem ipsum dolor sit.</p>
+            <p className='middle-txt3'>Lorem ipsum dolor sit amet consectetur.</p>
             <div className="na-btn3">
               <button className='btn3'>CHAPTER ONE</button>
               <button className='btn3'>ZYPSY</button>
@@ -116,6 +114,10 @@ const O3 = () => {
               <button className='btn3'>ZYPSY</button>
             </div>
           </div>
+
+
+
+
         </div>
       </div>
     </div>
