@@ -49,7 +49,6 @@ align-items: center;
     flex-direction: column;
     overflow: hidden;
     border-radius: 20px;
-    background-color:red; 
     display: none;
 }
 .foto3
@@ -136,15 +135,12 @@ width: 100%;
     height: 2600px;
     min-height: 2600px;
     flex-direction: column;
-    background-color: blue;
 }
 .kwa3,
 .kwa33,
 .kwa333
 {
-    width: 100%;
-    height: 33%;
-    display: none;
+ display: none;
 }
 .kwa3-display,
 .kwa33-display,
@@ -156,8 +152,6 @@ width: 100%;
     flex-direction: column;
     overflow: hidden;
     border-radius: 20px;
-    background-color:red; 
-   
 }
 .na-btn3
 {
@@ -171,21 +165,21 @@ width: 100%;
 }
 .o3
 {
-    min-height:2250px;
-    height: 2250px;
+    min-height:2150px;
+    height: 2150px;
 }
 .k3
 {
-    height: 2100px;
-    min-height: 2100px;
+    height: 2000px;
+    min-height: 2000px;
     flex-direction: column;
 }
 }
 @media only screen and (max-width: 450px) {
     .o3
     {
-        min-height:2150px;
-        height: 2150px;
+        min-height:2000px;
+        height: 2000px;
     }
     .k3
     {

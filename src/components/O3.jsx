@@ -52,7 +52,7 @@ const O3 = () => {
             <br />
             <p className='small-txt3'>AI</p>
             <br />
-            <p className='middle-txt3'>Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='middle-txt3'>Lorem ipsum dolor sit.</p>
             <div className="na-btn3">
               <button className='btn3'>CHAPTER ONE</button>
               <button className='btn3'>ZYPSY</button>
