@@ -111,22 +111,21 @@ line-height: 1.1;
     min-height: 1800px;
 }
 .top2{
-    height: 25%;
+    height: 31%;
 }
 .bottom2
 {
-    height: 74%;
+    height: 68%;
     flex-direction: column;
 }
 .left2
 {
     width: 100%;
-    height: 35%;
+
 }
 .right2
 {
     width: 100%;
-    height: 64%;
 }
 .big-txt2
 {
@@ -149,10 +148,11 @@ line-height: 1.1;
     .right22
     {
         font-size: 21px;
+       
     }
 .big-txt2
 {
-    font-size: 40px;
+    font-size: 34px;
 }
 .left2
 {
@@ -175,6 +175,6 @@ line-height: 1.1;
 }
 .o2
 {
-    min-height: 1300px;
+    min-height: 1250px;
 }
 }
