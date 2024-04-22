@@ -29,17 +29,29 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.kwa3
+.kwa3,
+.kwa33,
+.kwa333
 {
     width: 32%;
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     border-radius: 20px;
-
 }
-
+.kwa3-display,
+.kwa33-display,
+.kwa333-display
+{
+    width: 32%;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color:red; 
+    display: none;
+}
 .foto3
 {
     width: 100%;
@@ -124,11 +136,28 @@ width: 100%;
     height: 2600px;
     min-height: 2600px;
     flex-direction: column;
+    background-color: blue;
 }
-.kwa3
+.kwa3,
+.kwa33,
+.kwa333
 {
     width: 100%;
     height: 33%;
+    display: none;
+}
+.kwa3-display,
+.kwa33-display,
+.kwa333-display
+{
+    width: 100%;
+    height:33%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color:red; 
+   
 }
 .na-btn3
 {
@@ -164,7 +193,9 @@ width: 100%;
         min-height: 1850px;
         flex-direction: column;
     }
-    .kwa3
+    .kwa3-display,
+    .kwa33-display,
+    .kwa333-display
     {
         height: 32%;
     }
