@@ -20,6 +20,7 @@
 {
     height: 100%;
     width: 28%;
+   
 }
 .pin
 {
@@ -34,30 +35,36 @@ height: 100%;
 display: flex;
 justify-content: space-between;
 
-
 }
-.pro5
+.pro5,
+.pro55,
+.pro555,
+.pro5555
 {
     height: 23%;
     width: 100%;
-    
+ 
 }
 .pion5
 {
     width: 10%;
     height: 100%;
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
-.pion55
+.pion55,
+.pion555,
+.pion5555,
+.pion55555
 {
     width: 100%;
     height: 23%;
     display: flex;
 justify-content: center;
 font-size: 40px;
+
 }
 .na-pro5
 {
