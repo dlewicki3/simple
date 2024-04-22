@@ -27,6 +27,8 @@ const O3 = () => {
     );
   }, []);
 
+
+  
   return (
     <div className="o3">
       <div className="na-txt3">Zypsy companies</div>
@@ -114,10 +116,6 @@ const O3 = () => {
               <button className='btn3'>ZYPSY</button>
             </div>
           </div>
-
-
-
-
         </div>
       </div>
     </div>
