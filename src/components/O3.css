@@ -161,7 +161,7 @@ width: 100%;
 @media only screen and (max-width: 620px) {
 .na-btn3
 {
-    width: 70%;
+    width: 90%;
 }
 .o3
 {
@@ -178,13 +178,13 @@ width: 100%;
 @media only screen and (max-width: 450px) {
     .o3
     {
-        min-height:2050px;
-        height: 2050px;
+        min-height:2000px;
+        height: 2000px;
     }
     .k3
     {
-        height: 1850px;
-        min-height: 1850px;
+        height: 1800px;
+        min-height: 1800px;
         flex-direction: column;
     }
     .kwa3-display,
