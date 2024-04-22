@@ -41,15 +41,58 @@ const O4 = () => {
             <div className="kwa44">02</div>
             <div className="kwa44">03</div>
         </div>
+
+
+
+
+
+
         <div className="na-pro">
-<div className="pro4"><p className='txt4'>Cortex raises $35M Series B for its internal developer portal</p></div>
-<div className="pro44"><p className='txt44'>Captions raises $25 Million to bring AI to creators </p></div>
+
+          
+<div className="pro4">
+  <p className='txt4'>Cortex raises $35M Series B for its internal developer portal</p>
+  </div>
+  
+<div className="pro4-display">
+  <p className='txt4-display'>Cortex raises $35M Series B for its internal developer portal</p>
+</div>
+
+
+
+
+
+
+
+  
+<div className="pro44">
+  <p className='txt44'>Captions raises $25 Million to bring AI to creators </p>
+  </div>
+<div className="pro4-display">
+<p className='txt4-display'>Captions raises $25 Million to bring AI to creators </p>
+</div>
+
+
 <div className="pro444">
   <p className='txt444'>
 Robust Intelligence to be named most innovative company in data science of 2023
 </p>
 </div>
+<div className="pro4-display">
+<p className='txt4-display'>
+Robust Intelligence to be named most innovative company in data science of 2023
+</p>
 </div>
+</div>
+
+
+
+
+
+
+
+
+
     </div>
     <div className="na-btn4">
         <button className='btn4'>Read more news <MdOutlineKeyboardArrowRight  size={30}/>
