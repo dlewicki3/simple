@@ -68,7 +68,6 @@ flex-direction: column;
     font-size: 32px;
     font-weight: 500;
     overflow: hidden;
- 
   }
   .txt4,
   .txt44,
@@ -82,8 +81,6 @@ flex-direction: column;
   .txt444:hover {
     margin-left: 5px;
   }
-  
-  
 .na-btn4
 {
     width: 100%;
