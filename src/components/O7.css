@@ -1,0 +1,163 @@
+.o7
+{
+    width: 100%;
+    height: 700px;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k7
+{
+    width: 100%;
+    max-width: 1100px;
+    height: 600px;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.kwa7,
+.kwa77
+{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+gap:20px;
+
+}
+.foto7
+{
+    width: 100%;
+}
+.small-color-txt7
+{
+    font-size: 17px;
+    color: #808080;
+    font-weight: 600
+}
+.small-txt7
+{
+    font-size: 19px;
+}
+.big-txt3
+{
+    font-size: 40px;
+}
+.na-dwa-kwa7
+{
+display: none;
+}
+@media only screen and (max-width: 1100px) {
+.k7
+{
+    width: 90%;
+}
+}
+@media only screen and (max-width: 970px) {
+.k7
+{
+    width: 90%;
+    height: 800px;
+    min-height: 800px;
+    flex-direction: column;
+}
+.o7
+{
+    height: 850px;
+    min-height: 850px;
+}
+.na-dwa-kwa7
+{
+    height: 80%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.kwa7
+{
+    display: none;
+}
+.kwa77
+{
+    width: 100%;
+    height: 20%;
+}
+.kwa777
+{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+gap:20px;
+}
+}
+@media only screen and (max-width: 600px) {
+.na-dwa-kwa7
+{
+    flex-direction: column;
+    height: 90%;
+}
+.o7
+{
+    height: 1600px;
+    min-height: 1600px;
+}
+.k7
+{
+    height: 1500px;
+    min-height: 1500px;
+}
+.kwa77
+{
+    height: 10%;
+}
+.kwa777
+{
+    width: 100%;
+
+}
+.big-txt3
+{
+    font-size: 35px;
+}
+.small-txt7
+{
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 480px) {
+    .o7
+    {
+        height: 1400px;
+        min-height: 1400px;
+    }
+    .k7
+    {
+        height: 1300px;
+        min-height: 1300px;
+    }
+    .kwa77
+{
+    height: 15%;
+}
+.na-dwa-kwa7
+{
+    flex-direction: column;
+    height: 85%;
+}
+}
+@media only screen and (max-width: 420px) {
+    .o7
+    {
+        height: 1200px;
+        min-height: 1200px;
+    }
+    .k7
+    {
+        height: 1200px;
+        min-height: 1200px;
+    }
+}
+
+
