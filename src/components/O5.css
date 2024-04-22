@@ -123,7 +123,10 @@ font-weight: 600;
 {
     font-size: 35px;
 }
-.pion55
+.pion55,
+.pion555,
+.pion5555,
+.pion55555
 {
     font-size: 27px;
     display: flex;
@@ -159,7 +162,10 @@ font-weight: 600;
 }
 }
 @media only screen and (max-width: 500px) {
-    .pion55
+    .pion55,
+.pion555,
+.pion5555,
+.pion55555
     {
         font-size: 22px;
     }
