@@ -49,6 +49,10 @@ const O5 = () => {
         {  opacity: 0 },
         { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.pion55555', start: 'top 90%', end: 'bottom center',  } }
       );
+      gsap.fromTo('.pin',
+      {  opacity: 0 },
+      { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.pin', start: 'top 90%', end: 'bottom center',  } }
+    );
       }, []);
 
 
