@@ -16,15 +16,15 @@ const O7 = () => {
         );
         gsap.fromTo('.kwa7',
           {  opacity: 0 },
-          {  opacity: 1, duration: 1,  delay:0.5,  ease: 'power2.out', scrollTrigger: { trigger: '.kwa7', start: 'top 90%', end: 'bottom center' } }
+          {  opacity: 1, duration: 1,  delay:0.5,  ease: 'power2.out', scrollTrigger: { trigger: '.kwa7', start: 'top 80%', end: 'bottom center' } }
         );
         gsap.fromTo('.kwa777',
           {  opacity: 0 },
-          { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.kwa777', start: 'top 70%', end: 'bottom center' , } }
+          { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.kwa777', start: 'top 60%', end: 'bottom center' , } }
         );
         gsap.fromTo('.kwa7777',
         {  opacity: 0 },
-        { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.kwa7777', start: 'top 70%', end: 'bottom center'} }
+        { opacity: 1, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: '.kwa7777', start: 'top 60%', end: 'bottom center'} }
       );
       }, []);
 
