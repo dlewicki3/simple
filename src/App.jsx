@@ -7,6 +7,7 @@ import O4 from "./components/O4";
 import O5 from "./components/O5";
 import O6 from "./components/O6";
 import O7 from "./components/O7";
+import O8 from "./components/O8";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 <O5/>
 <O6/>
 <O7/>
+<O8/>
     </div>
   );
 }
