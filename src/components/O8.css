@@ -82,7 +82,7 @@
     {
         width: 90%;
         text-align: center;
-                top: 220px;
+                top: 200px;
     }
     .k8
     {
@@ -92,11 +92,11 @@
         min-height: 1300px;
         display: flex;
         justify-content: center;
-        padding-top: 220px;
+        padding-top: 200px;
     }
     .pin8
     {
-        top: 220px;
+        top: 200px;
     }
 
 
