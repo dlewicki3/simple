@@ -8,6 +8,7 @@ import O5 from "./components/O5";
 import O6 from "./components/O6";
 import O7 from "./components/O7";
 import O8 from "./components/O8";
+import O9 from "./components/O9";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 <O6/>
 <O7/>
 <O8/>
+<O9/>
     </div>
   );
 }

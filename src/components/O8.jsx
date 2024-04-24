@@ -4,7 +4,6 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const O8 = () => {
-
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.fromTo('.pin8',
@@ -15,9 +14,7 @@ const O8 = () => {
           {  opacity: 0 },
           {  opacity: 1, duration: 1,  delay:0.5,  ease: 'power2.out', scrollTrigger: { trigger: '.pin88', start: 'top 80%', end: 'bottom center'} }
         );
-
       }, []);
-
   return (
 <div className="o8">
     <div className="k8">
