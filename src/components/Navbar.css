@@ -49,6 +49,7 @@ li
     color: white;
     font-weight: 600;
     letter-spacing: -.5px;
+    cursor: pointer;
 }
 .btn-nav
 {
